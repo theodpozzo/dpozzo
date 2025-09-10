@@ -26,7 +26,9 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['p4ihf6yb.up.railway.app', 'www.dpozzo.com']
+ALLOWED_HOSTS = ['p4ihf6yb.up.railway.app',
+                 'www.dpozzo.com',
+                 'dpozzo.com']
 
 
 # Application definition
